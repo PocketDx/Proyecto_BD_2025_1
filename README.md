@@ -7,4 +7,9 @@
 
 ## Requisitos
 
-* [XAMPP 8.2.12](https://www.apachefriends.org/es/index.html) 
+* [XAMPP 8.2.12](https://www.apachefriends.org/es/index.html)
+* [Python 3.13.3](https://www.python.org/downloads/)
+* [Faker 37.3](https://pypi.org/project/Faker/)
+    ```
+    pip install Faker
+    ```
