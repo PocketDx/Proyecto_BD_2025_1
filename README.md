@@ -14,4 +14,6 @@
     ```
     pip install Faker
     ```
-[base.jpg](https://postimg.cc/4HGDVwGs)
+[![base.jpg](https://i.postimg.cc/BbPJWwwL/base.jpg)](https://postimg.cc/4HGDVwGs)
+[![basecopi.jpg](https://i.postimg.cc/3RVdDGsG/basecopi.jpg)](https://postimg.cc/xJG0wXTj)
+[![baseli.jpg](https://i.postimg.cc/SR9jLs4v/baseli.jpg)](https://postimg.cc/5Qxxbf6B)
