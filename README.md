@@ -15,8 +15,14 @@
     pip install Faker
     ```
 
-## 🧩 Script
+## 🧩 Script - DML
 Para cumplir con el requisito de DML se crea un [Script](https://github.com/PocketDx/Proyecto_BD_2025_1/blob/main/poblar_datos.py), el cual hace uso de la libreria "Faker" y "Random" para el minado de datos. Asi se consiguen los mas de 3000 registros solicitados.
+
+## 📋 DDL
+Se anexa un [Script SQL](https://github.com/PocketDx/Proyecto_BD_2025_1/blob/main/Modelo_Relacional_Biblioteca.sql) que cumpla con las 20 tablas solicitadas para el proyecto.
+
+## 🛠Tablas
+Se anexan las [tablas](https://github.com/PocketDx/Proyecto_BD_2025_1/tree/main/Tablas_CSV) en formato CSV separados por ***;***. Se debe tener en cuenta configurar correctamente la importación en _phpMyAdmin_ usando ***;***
 
 ### 🖥 Screenshots
 
