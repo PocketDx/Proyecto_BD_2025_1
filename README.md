@@ -1,6 +1,6 @@
 # 🗃🗂 Proyecto Bases de Datos
 * Dairo Javier Rodriguez - 1151358
-* Jonathanm Guevara - 1152229
+* Jonathan Guevara - 1152229
 * David Torres - 1151717
 
 ## 📚 Sistema de Biblioteca
@@ -14,6 +14,14 @@
     ```
     pip install Faker
     ```
+
+### 🖥 Screenshots
+
+##### Tabla Usuario llenada con 3000 usuarios
 [![base.jpg](https://i.postimg.cc/BbPJWwwL/base.jpg)](https://postimg.cc/4HGDVwGs)
+
+##### Tabla copia inyectada con 3782 copias de libros
 [![basecopi.jpg](https://i.postimg.cc/3RVdDGsG/basecopi.jpg)](https://postimg.cc/xJG0wXTj)
+
+##### Tabla libro minada con 500 libros
 [![baseli.jpg](https://i.postimg.cc/SR9jLs4v/baseli.jpg)](https://postimg.cc/5Qxxbf6B)
