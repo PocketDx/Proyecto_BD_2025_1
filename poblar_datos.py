@@ -2,6 +2,13 @@
 # Jonathan Guevara - 1152229
 # David Torres - 1151717
 
+# -----------------------------------------------------------------------
+# Este script genera datos ficticios para poblar la base de datos
+# Adicionalmente, se generan archivos CSV para cada tabla
+# Tambien cumple con requisitos que solo se cumplen desde la programacion
+# como la cantidad de prestamos por usuario, el calculo de multas, etc.
+# -----------------------------------------------------------------------
+
 import csv
 import random
 from faker import Faker
@@ -33,7 +40,7 @@ empleados = []
 
 
 # Metodo para leer usuarios desde archivo CSV
-'''
+
 archivo = "c:\\Users\\pocke\\Documents\\usuarios_3000.csv"
 def leer_usuarios_csv(archivo):
     with open(archivo, mode='r', encoding='utf-8') as file:
@@ -57,7 +64,6 @@ print("Usuarios leídos exitosamente.")
 print(f"Total de usuarios: {len(usuarios)}")
 
 '''
-
 # ---------- Usuarios ----------
 for i in range(1, NUM_USUARIOS + 1):
     tipo_usuario = random.choices(['estudiante', 'docente'], weights=[0.7, 0.3])[0]
@@ -71,6 +77,7 @@ for i in range(1, NUM_USUARIOS + 1):
         'estado': random.choice(['activo', 'bloqueado']),
         'saldo': random.randint(50000, 120000)
     })
+    '''
 
 # ---------- Libros y Copias ----------
 id_copia = 1
@@ -114,7 +121,8 @@ for copia in random.sample(copias, int(len(copias) * 0.6)):  # 60% prestadas
     if prestamos_por_usuario[usuario['id_usuario']] >= max_prestamos:
         continue
     fecha_prestamo = fake.date_between(start_date='-6M', end_date='-1M')
-    duracion = 15 if usuario['tipo_usuario'] == 'estudiante' else 30
+    duracion = 15 if usuario['tipo_usuario'] == 'estudiante' else 30 
+    # Esta es una validación de 15 días para estudiantes y 30 para docentes
     fecha_limite = fecha_prestamo + timedelta(days=duracion)
     estado = random.choices(['devuelto', 'retrasado', 'activo'], [0.5, 0.2, 0.3])[0]
 
@@ -162,7 +170,7 @@ for libro in random.sample(libros, int(NUM_LIBROS * 0.2)):
         'id_usuario': random.choice(usuarios)['id_usuario'],
         'isbn': libro['isbn'],
         'fecha_reserva': fake.date_between(start_date='-3M', end_date='today'),
-        'activa': random.choice([True, False])
+        'activa': random.choice([0, 1]),  # 0 = No activa, 1 = Activa
     })
 
 # ---------- Pagos ----------
@@ -178,8 +186,8 @@ for multa in multas:
         'id_pago': id_pago,
         'id_usuario': multa['id_usuario'],
         'id_tipo_pago': 1,
-        'monto': multa['monto'],
         'fecha': fecha_pago,
+        'monto': multa['monto']
     })
     id_pago += 1
 
@@ -188,8 +196,8 @@ for prestamo in prestamos:
         'id_pago': id_pago,
         'id_usuario': prestamo['id_usuario'],
         'id_tipo_pago': 2,
-        'monto': 5000,
         'fecha': prestamo['fecha_prestamo'],
+        'monto': 5000
     })
     id_pago += 1
 
@@ -272,7 +280,9 @@ for copia in copias:
         reposicion_libros.append({
             'id_reposicion': len(reposicion_libros) + 1,
             'id_usuario': random.choice(usuarios)['id_usuario'],
-            'id_copia': copia['id_copia']
+            'id_copia': copia['id_copia'],
+            'fecha': fake.date_between(start_date='-1M', end_date='today'),
+            'monto': random.randint(2000, 50000)
         })
 
 # ---------- Guardado a CSV ----------
@@ -296,5 +306,6 @@ guardar_csv("empleados", empleados, empleados[0].keys())
 guardar_csv("informes", informes, informes[0].keys())
 guardar_csv("sesion_auditoria", sesion_auditoria, sesion_auditoria[0].keys())
 guardar_csv("estado_copias", estado_copias, estado_copias[0].keys())
+guardar_csv("reposicion_libros", reposicion_libros, reposicion_libros[0].keys())
 
 print("Archivos CSV generados exitosamente.")

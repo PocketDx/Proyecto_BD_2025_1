@@ -39,7 +39,7 @@ CREATE TABLE UbicacionEstanteria (
   id_ubicacion INT AUTO_INCREMENT PRIMARY KEY,
   pasillo VARCHAR(10) NOT NULL,
   estante VARCHAR(10) NOT NULL,
-  nivel   VARCHAR(10) NOT NULL,
+  nivel   VARCHAR(10) NOT NULL
 ) ENGINE=InnoDB;
 
 -- ------------------------------------------------------
