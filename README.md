@@ -5,7 +5,7 @@
 
 ## 📚 Sistema de Biblioteca
 
-## ⚙ Requisitos
+### ⚙ Requisitos
 
 * [XAMPP 8.2.12](https://www.apachefriends.org/es/index.html)
 * [Python 3.13.3](https://www.python.org/downloads/)
@@ -15,8 +15,8 @@
     pip install Faker
     ```
 
-## 🧩 [Script](https://github.com/PocketDx/Proyecto_BD_2025_1/blob/main/poblar_datos.py)
-Para cumplir con el requisito de DML se crea un script, el cual hace uso de la libreria "Faker" y "Random" para el minado de datos. Asi se consiguen los mas de 3000 registros solicitados.
+## 🧩 Script
+Para cumplir con el requisito de DML se crea un [Script](https://github.com/PocketDx/Proyecto_BD_2025_1/blob/main/poblar_datos.py), el cual hace uso de la libreria "Faker" y "Random" para el minado de datos. Asi se consiguen los mas de 3000 registros solicitados.
 
 ### 🖥 Screenshots
 
