@@ -25,8 +25,7 @@ Se anexa un [Script SQL](https://github.com/PocketDx/Proyecto_BD_2025_1/blob/mai
 
 
 ## 🛠Tablas
-Se anexan las [tablas](https://github.com/PocketDx/Proyecto_BD_2025_1/tree/main/Tablas_CSV) en formato CSV separados por ***;***
-Se debe tener en cuenta configurar correctamente la importación en _phpMyAdmin_ usando ***;***
+Se anexan las [tablas](https://github.com/PocketDx/Proyecto_BD_2025_1/tree/main/Tablas_CSV) en formato CSV separados por ***;***                                                         Se debe tener en cuenta configurar correctamente la importación en _phpMyAdmin_ usando ***;***
 
 
 ### 🖥 Screenshots
