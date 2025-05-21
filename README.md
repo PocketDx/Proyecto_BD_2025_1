@@ -4,7 +4,16 @@
 * David Torres - 1151717
 
 ## 📚 Sistema de Biblioteca
-Se anexa archivo del [BACKUP](https://github.com/PocketDx/Proyecto_BD_2025_1/blob/main/BACKUP.sql) de MySQL de la base de datos.
+
+1. # Enunciado del Problema
+2. Imagen [![Library.png](https://i.postimg.cc/PJY46dXN/Library.png)](https://postimg.cc/WqpgzLJP)
+3. Imagen Modelo Relacional
+4. [Script DDL](https://github.com/PocketDx/Proyecto_BD_2025_1/blob/main/Modelo_Relacional_Biblioteca.sql)
+5. [Script DML](https://github.com/PocketDx/Proyecto_BD_2025_1/blob/main/poblar_datos.py)
+6. [BACKUP de MySQL](https://github.com/PocketDx/Proyecto_BD_2025_1/blob/main/BACKUP.sql)
+7. Documentación
+8. Consultas
+
 
 ### ⚙ Requisitos
 
@@ -22,7 +31,7 @@ Para cumplir con el requisito de DML se crea un [Script](https://github.com/Pock
 
 ## 📋 DDL
 Se anexa un [Script SQL](https://github.com/PocketDx/Proyecto_BD_2025_1/blob/main/Modelo_Relacional_Biblioteca.sql) que cumpla con las 20 tablas solicitadas para el proyecto.
-
+# Enunciado del Problema
 
 ## 🛠Tablas
 Se anexan las [tablas](https://github.com/PocketDx/Proyecto_BD_2025_1/tree/main/Tablas_CSV) en formato CSV separados por ***;***  -
