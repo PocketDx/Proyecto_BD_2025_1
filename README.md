@@ -5,10 +5,10 @@
 
 ## 📚 Sistema de Biblioteca
 
-1. Enunciado del Problema
+1. [Enunciado](https://github.com/PocketDx/Proyecto_BD_2025_1/blob/main/Enunciado.docx) del Problema
 2. Imagen Modelo Entidad Relacion [![Library.png](https://i.postimg.cc/PJY46dXN/Library.png)](https://postimg.cc/WqpgzLJP)
 3. Imagen Modelo Relacional [![modelobiblioteca.png](https://i.postimg.cc/sDBVMfPd/modelobiblioteca.png)](https://postimg.cc/QH3LP3n0)
-4. [Script DDL](https://github.com/PocketDx/Proyecto_BD_2025_1/blob/main/Modelo_Relacional_Biblioteca.sql)
+4. [Script DDL](https://github.com/PocketDx/Proyecto_BD_2025_1/blob/main/Modelo_Fisico_Biblioteca.sql)
 5. [Script DML](https://github.com/PocketDx/Proyecto_BD_2025_1/blob/main/poblar_datos.py)
 6. [BACKUP de MySQL](https://github.com/PocketDx/Proyecto_BD_2025_1/blob/main/BACKUP.sql)
 7. Documentación
