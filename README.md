@@ -11,9 +11,8 @@
 4. [Script DDL](https://github.com/PocketDx/Proyecto_BD_2025_1/blob/main/Modelo_Fisico_Biblioteca.sql)
 5. [Script DML](https://github.com/PocketDx/Proyecto_BD_2025_1/blob/main/poblar_datos.py)
 6. [BACKUP de MySQL](https://github.com/PocketDx/Proyecto_BD_2025_1/blob/main/BACKUP.sql)
-7. [Documentación]([https://docs.google.com/spreadsheets/d/1Il90epUbe96FcFho8WEU-MtbCHciOkBdxdNAwBU-QVs/edit?gid=1443083976#gid=1443083976](https://github.com/PocketDx/Proyecto_BD_2025_1/blob/main/Documentacion.xlsx))
-8. [Consultas]([https://docs.google.com/spreadsheets/d/1Il90epUbe96FcFho8WEU-MtbCHciOkBdxdNAwBU-QVs/edit?gid=0#gid=0](https://github.com/PocketDx/Proyecto_BD_2025_1/blob/main/Consultas.xlsx))
-
+7. [Documentación](https://github.com/PocketDx/Proyecto_BD_2025_1/blob/main/Documentacion.xlsx)
+8. [Consultas](https://github.com/PocketDx/Proyecto_BD_2025_1/blob/main/Consultas.xlsx)
 
 ### ⚙ Requisitos
 
